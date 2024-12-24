@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        .main_box {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            /* border: 2px solid black; */
+        }
+
+        .flex_box {
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid rgb(0, 0, 0);
+            /* align-items: center; */
+        }
+
+        .form_container{
+            padding: 10px 0px;
+        }
+        .form_container input {
+            width: 90%;
+            margin: 10px 0px;
+            padding: 10px 5px;
+        }
+        .logo_box{
+            display: flex;
+            align-items: center;
+            
+        }
+        .btn_box{
+            border: 1px solid black;
+            background-color: rgb(2, 109, 34);
+            color: white;
+            padding: 10px;
+            width: 200px;
+             margin-top: 10px;
+             /* border-radius: 10px; */
+        }
+    </style>
+    <div class="main_box">
+        <div class="flex_box"  >
+            <div class="box logo_box" style="background-color: #446c2c;padding:20px">
+                <img src="king.jpeg" height="auto" width="100%" alt="">
+            </div>
+            <div class="box form_container" style="width: 350px;align-self:center">
+                <h2>Send Enquiry Now</h2>
+                <input type="text" class="inp name">
+                <input type="text" class="inp email">
+                <input type="text" class="inp phone">
+                <button class="btn btn_box">click</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<style>
+    .a {
+        width: 100%;
+        border: 1px solid black;
+        /*margin-top: 5px;*/
+         margin-bottom:10px
+    }
+    .main_form{
+        background-image: linear-gradient(#5c8315, #1d4707);
+        /*width: 300px;*/
+        padding: 50px;
+    }
+    .textarea_input{
+        margin-top:5px;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <div class="main_form">
+         <h3>Send Enquiry Now</h3>
+    <input type="text" class="name a" placeholder="Name">
+    <input type="text" class="email a" placeholder="Email"  >
+    <input type="text" class="number a" placeholder="Number" >
+    
+    <button onclick="go()">submit</button>
+</div>
+
+<script>
+function go() {
+    var name = document.querySelector(".name").value;
+    var email = document.querySelector(".email").value;
+    var number = document.querySelector(".number").value;
+    var url = "https://wa.me/917464848144?text=" +
+        "Name: " +
+        name + " " +
+        "Number: " +
+        number + " " +
+        "Email :" + email;
+    window.open(url, "_blank").focus();
+}
+</script>
+
+
+<!-- ../../../../../ -->
+ <!--  -->

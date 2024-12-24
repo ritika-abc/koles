@@ -1,0 +1,514 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+    overflow: inherit
+}
+
+.heading_info a.pdfIcon {
+    padding: 10px 40px 10px 20px;
+    background: url(../images/pdf-icon.html) no-repeat 100% 50%;
+}
+
+.csr_overview_csa_bg {
+    background: url(../images/csr-overview-csa-bg-dex.html) no-repeat;
+    background-size: cover;
+}
+
+.csr_overview_aa_bg {
+    background: url(../images/csr-overview-aa-bg-dex.html) no-repeat;
+    background-size: cover;
+}
+
+.awrds_info .readmore a {
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.corgovernance_info .readmore a {
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.csr_overview_intin_bg {
+    background: url(../images/csr-overview-intin-bg-dex.html) no-repeat;
+    background-size: cover;
+}
+
+.csr_overview_csrvid_bg {
+    background: url(../images/csr-overview-csrvid-bg-dex.html) no-repeat;
+    background-size: cover;
+}
+
+.csr_overview_ourProgram {
+    margin: 0px auto;
+    max-width: 1136px;
+    clear: both;
+    background-color: #fff;
+}
+
+.csr_overview_ourProgram:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* .csr_overview_ourProgram p {
+    width: 100%;
+    background-color: #fff;
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    font-family: 'uni_neueregular';
+    padding: 10px 15%;
+    text-align: center;
+    float: left;
+} */
+
+.partners {
+    float: left;
+    width: 100%;
+}
+
+.partners .logo {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.our_programs_feature {
+    width: 100%;
+    position: relative;
+    padding: 0px 0 60px 445px;
+    height: 500px;
+    clear: both;
+    background: #FFF;
+}
+
+.our_programs_list {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 445px;
+}
+
+.our_programs_list li strong {
+    display: block;
+    height: 55px;
+    padding-left: 70px;
+    line-height: 55px;
+    font-size: 18px;
+    /* font-family: 'uni_neueregular'; */
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+}
+
+.our_programs_list li strong:after {
+    content: '';
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+}
+
+.our_programs_list li strong.opl_icon1:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat 0 0;
+}
+
+.our_programs_list li strong.opl_icon2:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -42px 0;
+}
+
+.our_programs_list li strong.opl_icon3:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -84px 0;
+}
+
+.our_programs_list li strong.opl_icon4:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -126px 0;
+}
+
+.our_programs_list li strong.opl_icon5:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -168px 0;
+}
+
+.our_programs_list li strong.opl_icon6:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -210px 0;
+}
+
+.our_programs_list li strong.opl_icon7:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -252px 0;
+}
+
+.our_programs_list li.oplActive strong {
+    background: #17703a url(../images/arrow4.png) no-repeat 100% 50%;
+    color: #FFF;
+}
+
+.our_programs_list li.oplActive strong.opl_icon1:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat 0 100%;
+}
+
+.our_programs_list li.oplActive strong.opl_icon2:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -42px 100%;
+}
+
+.our_programs_list li.oplActive strong.opl_icon3:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -84px 100%;
+}
+
+.our_programs_list li.oplActive strong.opl_icon4:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -126px 100%;
+}
+
+.our_programs_list li.oplActive strong.opl_icon5:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -168px 100%;
+}
+
+.our_programs_list li.oplActive strong.opl_icon6:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -210px 100%;
+}
+
+.our_programs_list li.oplActive strong.opl_icon7:after {
+    background: url(../images/csr-overview-our-program-icon.png) no-repeat -252px 100%;
+}
+
+.our_programs_list li strong b {
+    font-size: 18px;
+    /* font-family: 'uni_neueregular'; */
+    font-weight: 600;
+}
+
+.our_programs_list li>div.opl_info {
+    display: none;
+}
+
+.opl_dex_info_holder {
+    height: 100%;
+    background: #040351;
+}
+
+/*.opl_dex_info_holder div.opl_info{ display:none; width:100%; height:100%; position:relative; overflow:hidden;}
+.opl_dex_info_holder div.opl_info:after{content:''; display:block; width:100%; height:100%; background:url(../images/csr-overview_gradient.png) repeat-x 0 100%; z-index:2; position:absolute; left:0; top:0; }
+.opl_dex_info_holder div.opl_info img{ width:100%; position:relative; z-index:1;}
+.opl_dex_info_holder div.opl_info aside{ position:absolute; left:0; bottom:25px; width:100%; z-index:4; color:#FFF; text-align:center; padding:0 25px;font-family: 'uni_neuebook'; font-weight:400;}
+.opl_dex_info_holder div.opl_info aside h3{ font-weight:400; font-size:22px; padding-bottom:20px;}
+.opl_dex_info_holder div.opl_info aside span{ display:block; font-size:16px; line-height:20px; padding-bottom:20px;}
+.opl_dex_info_holder div.opl_info aside a{border: 1px solid #fff; padding: 10px 20px;  border-radius: 3px; color: #fff; font-size: 15px; display:inline-block;}
+.opl_dex_info_holder div.opl_info:first-child{ display:block;}*/
+
+.opl_info {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.opl_info:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/csr-overview_gradient.png) repeat-x 0 100%;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.opl_info img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.opl_info aside {
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    width: 100%;
+    z-index: 4;
+    color: #FFF;
+    text-align: center;
+    padding: 0 25px;
+    /* font-family: 'uni_neueregular'; */
+    font-weight: 400;
+}
+
+.opl_info aside h3 {
+    font-weight: 400;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.opl_info aside span {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.opl_info aside a {
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.opl_info:first-child {
+    display: block;
+}
+
+.our_world_head_box {
+    white-space: nowrap;
+}
+
+
+
+
+.partners {
+    margin: 20px 0;
+    padding: 0px;
+    text-align: center;
+}
+
+.partners_top h3 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    padding: 50px 0 0 0;
+}
+
+.partners li {
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    width: 170px;
+}
+
+.partners li a {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.partners li a.woodside {
+    background: url(../images/woodside_logo_balck.html) no-repeat center;
+}
+
+.partners li a.woodside:hover {
+    background: url(../images/woodside_logo.html) no-repeat center;
+}
+
+.partners li a.fedex {
+    background: url(../images/fedex_black.html) no-repeat center;
+}
+
+.partners li a.fedex:hover {
+    background: url(../images/fedex.html) no-repeat center;
+}
+
+.partners li a.dell {
+    background: url(../images/dell_black.html) no-repeat center;
+}
+
+.partners li a.dell:hover {
+    background: url(../images/dell.html) no-repeat center;
+}
+
+
+.partners li a.bhp_bilion {
+    background: url(../images/bhp_bilion_black.html) no-repeat center;
+}
+
+.partners li a.bhp_bilion:hover {
+    background: url(../images/bhp_bilion.html) no-repeat center;
+}
+
+.partners li a.amazon {
+    background: url(../images/amazon_black.html) no-repeat center;
+}
+
+.partners li a.amazon:hover {
+    background: url(../images/amazon.html) no-repeat center;
+}
+
+.partners li a.westfarmers {
+    background: url(../images/wesfarmers_black.html) no-repeat center;
+}
+
+.partners li a.westfarmers:hover {
+    background: url(../images/wesfarmers.html) no-repeat center;
+}
+
+.csr_dsk {
+    display: block;
+}
+
+.csr_mob {
+    display: none;
+}
+
+
+
+@media screen and (max-width:1100px) {
+    .csr_overview_csa_bg {
+        background: url(../images/csr-overview-csa-bg-tab.html) no-repeat;
+        background-size: cover;
+    }
+
+    .csr_overview_aa_bg {
+        background: url(../images/csr-overview-aa-bg-tab.html) no-repeat;
+        background-size: cover;
+    }
+
+    .csr_overview_intin_bg {
+        background: url(../images/csr-overview-intin-bg-tab.html) no-repeat;
+        background-size: cover;
+    }
+
+    .csr_overview_csrvid_bg {
+        background: url(../images/csr-overview-csrvid-bg-tab.html) no-repeat;
+        background-size: cover;
+    }
+
+    .our_programs_feature {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .about_facilities .our_world_head_box h3 {
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .our_programs_list li>div.opl_info {
+        display: none;
+    }
+
+    .opl_dex_info_holder {
+        display: none;
+    }
+
+    .our_programs_list li:nth-child(1)>div.opl_info {
+        display: block;
+    }
+
+    .our_programs_feature {
+        width: 100%;
+        position: relative;
+        padding: 30px 15% 70px;
+        height: 500px;
+        clear: both;
+        background: #FFF;
+    }
+
+    .our_programs_list {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+    }
+
+    .our_programs_list li {
+        margin-bottom: 2px;
+    }
+
+    .our_programs_list li strong {
+        background: #f0f0f0;
+    }
+
+    .our_programs_feature {
+        width: 100%;
+        height: auto;
+    }
+
+    .opl_info aside h3 {
+        padding-bottom: 0px;
+    }
+
+    .opl_info aside h3 strong {
+        background-image: none !important;
+        background-color: transparent !important;
+        font-size: 22px;
+        padding: 0px;
+        display: initial;
+    }
+
+    /*------New css changes 5 feb-----*/
+    .our_programs_feature {
+        padding: 30px 5% 70px;
+    }
+
+}
+
+@media screen and (max-width:680px) {
+    .csr_overview_csa_bg {
+        background: url(../images/csr-overview-csa-bg-mob.html) no-repeat;
+        background-size: cover;
+    }
+
+    .csr_overview_aa_bg {
+        background: url(../images/csr-overview-aa-bg-mob.html) no-repeat;
+        background-size: cover;
+    }
+
+    .csr_overview_intin_bg {
+        background: url(../images/csr-overview-intin-bg-mob.html) no-repeat;
+        background-size: cover;
+    }
+
+    .csr_overview_csrvid_bg {
+        background: url(../images/csr-overview-csrvid-bg-mob.html) no-repeat;
+        background-size: cover;
+    }
+
+    .our_programs_feature {
+        padding: 30px 7% 70px;
+    }
+
+    .our_programs_list li strong {
+        padding-left: 63px;
+    }
+
+    .our_programs_list li strong:after {
+        left: 10px;
+    }
+
+    .csr_dsk {
+        display: none;
+    }
+
+    .csr_mob {
+        display: block;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .our_programs_list li strong {
+        font-size: 14px;
+        line-height: normal;
+        padding-top: 9px;
+    }
+
+    .our_programs_list li strong b {
+        font-size: 15px;
+        display: block;
+        line-height: normal;
+    }
+}
